@@ -6,9 +6,9 @@
         <div class="card">
           <div class="card-body p-5">
 
-            <form action="edit.php?=add" method="post" class="d-flex justify-content-center align-items-center mb-4">
+            <form action="edit.php?mod=add" method="post" class="d-flex justify-content-center align-items-center mb-4">
               <div class="form-outline flex-fill">
-                <input type="text" name="task" id="form2" class="form-control" />
+                <input type="text" name="Tasks" id="form2" class="form-control" />
                 <label class="form-label" for="form2">New task...</label>
               </div>
               <button type="submit" class="btn btn-info ms-2">Add</button>
@@ -69,7 +69,7 @@
                   <li class="list-group-item d-flex align-items-center border-0 mb-2 rounded"
                     style="background-color: #f4f6f7;">
                     <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." checked />
-                    <s>Cras justo odio</s>
+                    <?php echo $obj->Tasks; ?>
                   </li>
                   <?php
                   } 
