@@ -1,10 +1,10 @@
 <?php
 
     // chemin d'acces physique
-    $dir_fs = $_SERVER["DOCUMENT_ROOT"]."/Task/";
+    $dir_fs = $_SERVER["DOCUMENT_ROOT"]."/task/";
 
     // chemin d'acces virtuel
-    $dir_ws = "/Task/";
+    $dir_ws = "/task/";
 
     $dir_common = $dir_fs."common/";
 
@@ -14,6 +14,6 @@
     $dbHost = "localhost";
     $dbUser = "root";
     $dbPw = "";
-    $dbName = "Task";
+    $dbName = "task";
 
 ?>
